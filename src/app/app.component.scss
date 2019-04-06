@@ -1,0 +1,20 @@
+@import '../variables.scss';
+
+div {
+  text-align: center;
+
+  h1 { color: $dark--orange; }
+}
+
+h2 {
+  color: $dark--green;
+}
+
+a {
+  color: $dark--blue;
+
+  &:visited, &:active, &:hover {
+    color: $dark--pink;
+  }
+}
+
