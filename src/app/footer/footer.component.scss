@@ -1,0 +1,9 @@
+@import "../sass/variables.scss";
+
+.page-footer {
+  background-color: $dark--white;
+  color: $dark--gray;
+}
+.page-footer.dark-theme {
+  background-color: inherit;
+}

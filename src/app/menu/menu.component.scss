@@ -1,0 +1,50 @@
+@import "../sass/variables.scss";
+
+@font-face {
+  font-family: yellowtail;
+  src: url(../../assets/fonts/Yellowtail-Regular.ttf);
+}
+
+nav {
+  background-color: $dark--orange;
+  a {
+    color: $dark--black;
+  }
+}
+.nav-toggle-wrapper {
+  position: absolute;
+  top: 45%;
+  border: 1px solid red;
+}
+#nav-toggle {
+  border: 1px solid red;
+}
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 5px;
+  width: 35px;
+  background: $dark--black;
+  position: absolute;
+  display: block;
+  content: '';
+}
+#nav-toggle span:before {
+  top: -10px;
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+.sidenav {
+  background-color: $dark--orange;
+  color: $dark--black;
+}
+.brand-logo {
+  background-image: url("../../assets/pancake.png");
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position: 0.4em 50%;
+  padding-left: 1.5em;
+  font-family: 'yellowtail', serif;
+  color: $dark--gray;
+}

@@ -1,0 +1,25 @@
+<nav>
+  <div class="nav-wrapper">
+    <a href="/" class="brand-logo">Gavin Bintz</a>
+    <div class="nav-toggle-wrapper">
+      <a href="#"
+         id="nav-toggle"
+         data-target="mobile-nav"
+         class="sidenav-trigger"
+      ><span></span></a>
+    </div>
+    <ul [ngSwitch]="theme.getTheme()" id="nav-mobile" class="right hide-on-med-and-down">
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">About Me</a></li>
+      <li *ngSwitchCase="'light'"><a href="#" (click)="theme.themeToggle();">Dark Mode</a></li>
+      <li *ngSwitchCase="'dark'"><a href="#" (click)="theme.themeToggle();">Light Mode</a></li>
+    </ul>
+  </div>
+</nav>
+
+<ul [ngSwitch]="theme.getTheme()" class="sidenav" id="mobile-nav">
+  <li><a href="#">Projects</a></li>
+  <li><a href="#">About Me</a></li>
+  <li *ngSwitchCase="'light'"><a href="#" (click)="theme.themeToggle();">Dark Mode</a></li>
+  <li *ngSwitchCase="'dark'"><a href="#" (click)="theme.themeToggle();">Light Mode</a></li>
+</ul>

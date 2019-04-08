@@ -2,13 +2,15 @@ import { Component, OnInit } from '@angular/core';
 import { ThemeService } from '../theme.service';
 
 @Component({
-  selector: 'app-menu',
-  templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.scss']
+  selector: 'app-footer',
+  templateUrl: './footer.component.html',
+  styleUrls: ['./footer.component.scss']
 })
-export class MenuComponent implements OnInit {
+export class FooterComponent implements OnInit {
+
   constructor(private theme: ThemeService) { }
 
   ngOnInit() {
   }
+
 }
