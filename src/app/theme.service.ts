@@ -8,6 +8,7 @@ export class ThemeService {
   constructor() {
     this.theme = 'light';
   }
+  theme: string;
   getTheme() { return this.theme; }
   themeToggle() {
     if (this.theme === 'light') {
