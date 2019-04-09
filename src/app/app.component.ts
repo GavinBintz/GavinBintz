@@ -10,7 +10,7 @@ import { ThemeService } from './theme.service';
 })
 export class AppComponent {
   items: Observable<any[]>;
-  constructor(db: AngularFirestore, private theme: ThemeService) {
+  constructor(db: AngularFirestore, public theme: ThemeService) {
     this.items = db.collection('users').valueChanges();
   }
 }

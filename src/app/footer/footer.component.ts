@@ -8,7 +8,7 @@ import { ThemeService } from '../theme.service';
 })
 export class FooterComponent implements OnInit {
 
-  constructor(private theme: ThemeService) { }
+  constructor(public theme: ThemeService) { }
 
   ngOnInit() {
   }

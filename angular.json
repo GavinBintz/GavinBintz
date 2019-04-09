@@ -34,7 +34,7 @@
             "scripts": [
               "node_modules/jquery/dist/jquery.js",
               "node_modules/materialize-css/dist/js/materialize.js",
-              "node_modules/three/src/three.js"
+              "node_modules/three/src/Three.js"
             ],
             "es5BrowserSupport": true
           },

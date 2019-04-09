@@ -7,7 +7,7 @@ import { ThemeService } from '../theme.service';
   styleUrls: ['./menu.component.scss']
 })
 export class MenuComponent implements OnInit {
-  constructor(private theme: ThemeService) { }
+  constructor(public theme: ThemeService) { }
 
   ngOnInit() {
   }

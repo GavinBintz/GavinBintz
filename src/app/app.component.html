@@ -6,9 +6,6 @@
       <li class="text" *ngFor="let item of items | async">
         {{item.name}}
       </li>
-      <div>
-        {{ (item | async)?.name }}
-      </div>
     </ul>
     <router-outlet></router-outlet>
   </main>
