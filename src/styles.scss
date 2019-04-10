@@ -1,18 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'app/sass/variables';
 
-html {
-  height: 100%;
-}
+html { height: 100%; }
 
 body {
   font-family: monaco,Bitstream Vera Sans Mono,monospace;
   background-color: $dark--white;
   display: grid;
   min-height: 100%;
+  margin: 0;
 }
 
+canvas {height: 100%; width: 100%; }
 
-.dark-theme {
-  background-color: $dark--black;
-}
+.dark-theme { background-color: $dark--black; }
