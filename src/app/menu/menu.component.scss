@@ -11,30 +11,7 @@ nav {
     color: $dark--black;
   }
 }
-.nav-toggle-wrapper {
-  position: absolute;
-  top: 45%;
-  border: 1px solid red;
-}
-#nav-toggle {
-  border: 1px solid red;
-}
-#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-  cursor: pointer;
-  border-radius: 1px;
-  height: 5px;
-  width: 35px;
-  background: $dark--black;
-  position: absolute;
-  display: block;
-  content: '';
-}
-#nav-toggle span:before {
-  top: -10px;
-}
-#nav-toggle span:after {
-  bottom: -10px;
-}
+
 .sidenav {
   background-color: $dark--orange;
   color: $dark--black;
@@ -47,4 +24,28 @@ nav {
   padding-left: 1.5em;
   font-family: 'yellowtail', serif;
   color: $dark--gray;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../assets/fonts/materialize.woff2") format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons', serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  margin-top: 20px;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
 }
