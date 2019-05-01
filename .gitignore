@@ -44,3 +44,10 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+#Original Angular CLI README File
+README-ORIG.md
+
+#Private Stuff
+/src/environments
+

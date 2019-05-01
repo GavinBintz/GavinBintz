@@ -1,5 +1,9 @@
 # Gavin Bintz's Personal Website
 
+Hey guys! I'm a full-stack developer 
+
+
+#
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.8.
 
 ## Development server
